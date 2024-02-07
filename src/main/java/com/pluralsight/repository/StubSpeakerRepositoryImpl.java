@@ -1,10 +1,10 @@
 package com.pluralsight.repository;
-
 import com.pluralsight.model.Speaker;
-
+import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.ArrayList;
 
+@Repository("speakerRepository")
 public class StubSpeakerRepositoryImpl implements SpeakerRepository {
 
    @Override
