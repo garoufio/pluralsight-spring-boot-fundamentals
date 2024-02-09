@@ -20,7 +20,7 @@ public class AppConfig {
     // SpeakerRepository will be automatically injected as it is Autowired
     SpeakerServiceImpl speakerService = new SpeakerServiceImpl();
     //SpeakerServiceImpl speakerService = new SpeakerServiceImpl(getSpeakerRepository()); // constructor injection
-    speakerService.setSpeakerRepository(getSpeakerRepository()); // setter injection
+    //speakerService.setSpeakerRepository(getSpeakerRepository()); // setter injection
     return speakerService;
   }
 
